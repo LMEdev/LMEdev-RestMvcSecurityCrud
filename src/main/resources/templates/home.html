@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home</title>
+  <link rel="stylesheet" type="text/css" th:href="@{/css/styles.css}">
+</head>
+<body>
+<h1>Home Page</h1>
+<div class="button-container">
+  <a th:href="@{/admin/users}" class="button">Admin Page</a>
+  <a th:href="@{/user/profile}" class="button">User Page</a>
+</div>
+</body>
+</html>
